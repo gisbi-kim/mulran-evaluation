@@ -6,8 +6,8 @@ calib;
 
 %
 filedir = "../data/";
-seq_name = "dcc01";
-filename = "global_pose_dcc01.csv"; % origianlly was earth-coord.
+seq_name = "dcc02";
+filename = "global_pose_dcc02.csv"; % origianlly was earth-coord.
 filepath = fullfile(filedir, filename);
 
 gt_traj = readmatrix(filepath);

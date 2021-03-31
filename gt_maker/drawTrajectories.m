@@ -3,7 +3,7 @@ clear; clc;
 filedir = "../data/";
 addpath(genpath(filedir));
 
-traj_filenames = ["global_pose_dcc01.csv", "lidarcoord_pose_dcc01.csv"];
+traj_filenames = ["global_pose_dcc02.csv", "lidarcoord_pose_dcc02.csv"];
 titles = ["global coord w.r.t earth", "local coord w.r.t lidar sensor"];
 
 for ii = 1:length(traj_filenames)
